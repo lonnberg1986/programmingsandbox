@@ -29,6 +29,93 @@ table {
 }
 /*  end reset browser styles */
 /*---------------------------------------------*/
+/*  Navigation styling */
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(50,50,50,0.7);
+}
+
+.logo {
+    float: left;
+    margin: 10px;
+    max-width: 80px;
+    height: auto;
+}
+
+.main-nav {
+    list-style: none;
+    padding-top: 30px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+    line-height: 250%;
+}
+
+.main-nav li a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.main-nav li a:hover, .main-nav li a:active{
+    border-bottom: 2px solid #2980b9;
+}
+
+.hamburger-menu {
+    display: none;
+    position: absolute;
+    top: 35px;
+    right: 30px;
+    width: 35px;
+    height: 20px;
+}
+
+.hamburger-menu-bar {
+    position: absolute;
+    top: 50%;
+    width: 35px;
+    height: 5px;
+    background-color: #f6f8f8;
+    border-radius: 10px;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+}
+
+.hamburger-menu-bar:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #f6f8f8;
+    position: absolute;
+    top: -10px;
+    border-radius: 10px;
+    transition-property: top, transform;
+    transition-delay: 0.5s, 0s;
+    transition-duration: 0.5s, 0.5s;
+}
+
+.hamburger-menu-bar:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #f6f8f8;
+    position: absolute;
+    top: 10px;
+    border-radius: 10px;
+    transition-property: top, transform;
+    transition-delay: 0.5s, 0s;
+    transition-duration: 0.5s, 0.5s;
+}
+
+/* end navigation styling*/
+/*---------------------------------------------*/
 /* header styling */
 
 header {
