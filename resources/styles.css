@@ -146,6 +146,30 @@ h1 {
 
 /* end header styling */
 /*---------------------------------------------*/
+/* information styling */
+
+.information-box {
+    width: 33%;
+    display: inline-block;
+}
+
+.information-box h3 {
+    text-align: center;
+    background-color: #2980b9;
+    border-radius: 50px;
+    width: 150px;
+    margin: 0 auto;
+    color: #ffffff;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.short-p {
+    text-align: center;
+}
+
+/* end information styling */
+/*---------------------------------------------*/
 /*  General styling */
 
     /* buttons */
@@ -172,6 +196,37 @@ h1 {
     }
 
     /*end buttons styling*/
+    /*---------------------------*/
+    /* section */
+
+    .row {
+        max-width: 1200px;
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+
+    h2 {
+        padding: 150px 0 35px 0;
+        font-size: 200%;
+        color: #262f3d;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 300;
+    }
+
+    h2:after {
+        display: block;
+        content: " ";
+        width: 100px;
+        height: 2px;
+        margin: 0 auto;
+        background-color: #2980b9;
+        margin-top: 30px;
+
+    }
+
+    /*end section styling*/
     /*---------------------------*/
 
 /*  end general styling */

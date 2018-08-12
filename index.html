@@ -10,27 +10,48 @@
     <link rel="icon" href="resources/favicon.ico" />
 </head>
 <body>
-<div id="wrapper">
-    <header>
-        <nav>
-            <a href="index.html"><img src="resources/logo.png" alt="Grey Programming Sandbox logo" class="logo" /></a>
-            <ul class="main-nav hidden">
-                <li><a href="#">Web Development</a></li>
-                <li><a href="#">HTML</a></li>
-                <li><a href="#">CSS</a></li>
-                <li><a href="#">Javascript</a></li>
-                <li><a href="#">Web Development Basics</a></li>
-            </ul>
-            <div class="hamburger-menu disabled-menu">
-                <span class="hamburger-menu-bar"></span>
+    <div id="wrapper">
+        <header>
+            <nav>
+                <a href="index.html"><img src="resources/logo.png" alt="Grey Programming Sandbox logo" class="logo" /></a>
+                <ul class="main-nav hidden">
+                    <li><a href="#information">Information</a></li>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">Javascript</a></li>
+                    <li><a href="#">Web Development Basics</a></li>
+                </ul>
+                <div class="hamburger-menu disabled-menu">
+                    <span class="hamburger-menu-bar"></span>
+                </div>
+            </nav>
+            <div class="header-text-box">
+                <h1>Programming Sandbox:<br /><span class="welcomeMessage">In Programming We Trust!</span></h1>
+                <a class="button button-full" href="#">Programming Sandbox</a>
+                <a class="button button-ghost" href="#">About Me!</a>
             </div>
-        </nav>
-        <div class="header-text-box">
-            <h1>Programming Sandbox<br /><span class="welcomeMessage">In Programming We Trust!</span></h1>
-            <a class="button button-full" href="#">Programming Sandbox</a>
-            <a class="button button-ghost" href="#">About Me!</a>
-        </div>
-    </header>
-</div>
+        </header>
+        <section id="information">
+            <div class="row">
+                <h2>Information About Programming Sandbox</h2>
+                <p class="long-p">Programming Sandbox website is my own project to improve my web development skills. I'm adding new content and updating new features for this website, as I progress on my journey to master the arts of web development. On the boxes bellow you are able to find some of the languages that has been used to keep this website running. I hope you will enjoy this website as much as I have been enjoying creating it.</p>
+                <br />
+                <p>You can find the source code for the website on my <a href="https://github.com/lonnberg1986/programmingsandbox.git" target="_blank">GitHub repository</a>.</p>
+                <br />
+                <div class="information-box">
+                    <h3>HTML</h3>
+                    <p class="short-p">HTML is used to structure the content</p>
+                </div>
+                <div class="information-box">
+                    <h3>CSS</h3>
+                    <p class="short-p">CSS is used for styling and responsive design</p>
+                </div>
+                <div class="information-box">
+                    <h3>JavaScript</h3>
+                    <p class="short-p">JavaScript is used for interactive features</p>
+                </div>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
