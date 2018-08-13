@@ -175,7 +175,39 @@ h1 {
 
 /* end information styling */
 /*---------------------------------------------*/
+/*  html styling */
+
+.html-photo {
+    width: 50%;
+    display: inline-block;
+    float: left;
+    background-color: #000;
+    overflow: hidden;
+    padding: 2px;
+}
+
+.html-photo img {
+    display: block;
+    float: left;
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+}
+
+.html-photo img:hover {
+    opacity: 1;
+    transform: scale(1);
+    transition: transform linear .2s;
+}
+
+/* end html styling */
+/*---------------------------------------------*/
 /*  General styling */
+
+    .long-p {
+        padding-bottom: 10px;
+    }
 
     /* buttons */
 
@@ -204,11 +236,19 @@ h1 {
     /*---------------------------*/
     /* section */
 
+    section {
+        padding-bottom: 30px;
+        overflow: auto;
+    }
+
+    section:nth-child(2n+1) {
+        background-color: #ecf0f1;
+    }
+
     .row {
         max-width: 1200px;
         width: 80%;
         margin: 0 auto;
-        padding-bottom: 30px;
         overflow: auto;
     }
 
@@ -263,6 +303,12 @@ h1 {
 @media screen and (max-width: 750px){
     .header-text-box {
         left: 5%;
+    }
+    .html-photo {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        float: none;
     }
 }
 
