@@ -175,9 +175,9 @@ h1 {
 
 /* end information styling */
 /*---------------------------------------------*/
-/*  html styling */
+/*  html + css styling */
 
-.html-photo {
+.html-photo, .css-photo {
     width: 50%;
     display: inline-block;
     float: left;
@@ -186,7 +186,7 @@ h1 {
     padding: 2px;
 }
 
-.html-photo img {
+.html-photo img, .css-photo img {
     display: block;
     float: left;
     opacity: 0.7;
@@ -195,13 +195,13 @@ h1 {
     transform: scale(1.15);
 }
 
-.html-photo img:hover {
+.html-photo img:hover, .css-photo img:hover {
     opacity: 1;
     transform: scale(1);
     transition: transform linear .2s;
 }
 
-/* end html styling */
+/* end html + css styling */
 /*---------------------------------------------*/
 /*  General styling */
 
@@ -304,7 +304,7 @@ h1 {
     .header-text-box {
         left: 5%;
     }
-    .html-photo {
+    .html-photo, .css-photo {
         display: block;
         width: 80%;
         margin: 0 auto;
