@@ -27,6 +27,11 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+* {
+    box-sizing: border-box;
+}
+
 /*  end reset browser styles */
 /*---------------------------------------------*/
 /*  Navigation styling */
@@ -151,6 +156,7 @@ h1 {
 .information-box {
     width: 33%;
     display: inline-block;
+    float: left;
 }
 
 .information-box h3 {
@@ -158,10 +164,9 @@ h1 {
     background-color: #2980b9;
     border-radius: 50px;
     width: 150px;
-    margin: 0 auto;
+    margin: 0 auto 10px auto;
     color: #ffffff;
     padding: 5px;
-    margin-bottom: 10px;
 }
 
 .short-p {
@@ -204,6 +209,7 @@ h1 {
         width: 80%;
         margin: 0 auto;
         padding-bottom: 30px;
+        overflow: auto;
     }
 
     h2 {
@@ -220,9 +226,8 @@ h1 {
         content: " ";
         width: 100px;
         height: 2px;
-        margin: 0 auto;
+        margin: 30px auto 0 auto;
         background-color: #2980b9;
-        margin-top: 30px;
 
     }
 
@@ -233,3 +238,38 @@ h1 {
 /*---------------------------------------------*/
 
 /* Responsive styling */
+@media screen and (max-width:1200px) {
+    .header-text-box {
+        left: 10%;
+    }
+
+    .row {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .hidden {
+        display: none;
+    }
+    .hamburger-menu {
+        display: block;
+    }
+    .information-box {
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .header-text-box {
+        left: 5%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .information-box {
+        display: block;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+}
