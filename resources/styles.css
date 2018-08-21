@@ -269,6 +269,20 @@ table {
 
     /* end html + css styling */
     /*---------------------------*/
+    /* javascript styling */
+
+    #clock p {
+        text-align: center;
+        font-size: 250%;
+    }
+
+    #clock h3 {
+        text-align: center;
+        padding: 2em 0 1em 0;
+    }
+
+    /* end javascript styling */
+    /*---------------------------*/
 
 /* end section specific styling */
 /*---------------------------------------------*/
